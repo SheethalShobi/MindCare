@@ -1,7 +1,7 @@
 import os
 from langchain.prompts import PromptTemplate
 from langchain_together import Together
-together_api_key='85bfb42456ec12dbaf0efa48b8bf1ed3c12816340cc98c685862a8dea0ba27cc'
+together_api_key='TOGETHER-API-KEY'
 llm=Together(together_api_key=together_api_key,
              model='meta-llama/Meta-Llama-3-70B',
              tags=['mental-health'],
